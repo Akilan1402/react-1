@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.box{
+    border: solid black 2px;
+    text-align: center;
+    width:350px;
+    display: inline block;
+    justify-content: space-around;
+
+}
+.box  img{
+    width:300px;
+    height: 250px;
+}
+.box p{
+    color:crimson
+}
+
+.box:hover{
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+.products{
+   background-color: rgb(0, 255, 136); 
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
